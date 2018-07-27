@@ -33,7 +33,9 @@
         <h1 class="title">{{ site.greeting }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
 
-        {% include social-links.html %}
+        {% if site.social-links %}
+            {% include social-links.html %}
+        {% endif %}
     </header>
 {% endif %}
 
