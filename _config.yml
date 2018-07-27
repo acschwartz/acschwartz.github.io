@@ -13,9 +13,13 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+# This option has the "Resume" link point to a file
+# resume: true
+# resume-external: true
+# resume-url: https://google.com/?q=my+resume
+
+# If you want the "Resume" link to point to a page
+resume-page: true
 
 url: https://acschwartz.github.io
 
