@@ -11,7 +11,18 @@ A contact page that includes various ways for employers to get in touch with you
 <center>
 <p>Let's connect!</p>
 
-<i class="fas fa-envelope"></i>
-<i class="fab fa-linkedin"></i>
+<div class="social-links">
+    {% if site.linkedin %}
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+            <i class="fab fa-linkedin fa2x"></i>
+        </a>
+    {% endif %}
+
+    {% if site.email %}
+        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
+            <i class="fas fa-envelope fa2x"></i>
+        </a>
+    {% endif %}
+</div>
 
 </center>
