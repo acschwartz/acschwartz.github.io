@@ -5,7 +5,8 @@
 %}{% assign showHeader = true %}{% endif %}
 
 {% if page.title == "About"
-%}{% assign showHeader = true %}{% endif %}
+   or page.title == "Résumé"
+%}{% assign showMinHeader = true %}{% endif %}
 
 
 {% if showHeader == true %}
