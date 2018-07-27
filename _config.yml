@@ -21,6 +21,9 @@ picture: assets/images/profile.jpg
 # If you want the "Resume" link to point to a page
 resume-page: true
 
+# If you want to have a dedicated "Contact" page
+contact-page: true
+
 url: https://acschwartz.github.io
 
 permalink: /:title/
