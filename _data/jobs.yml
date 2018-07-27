@@ -1,0 +1,27 @@
+- title: Front-End Web Developer (Student)
+  employer: UMM SUA Marketing & Design
+  city: Minneapolis, MN
+  start-month: Jun
+  start-year: 2018
+  end-month: Aug
+  end-year: 2018
+  description: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
+
+- title: Software Development Intern
+  employer: Wells Fargo Insurance
+  city: Minneapolis, MN
+  start-month: Jun
+  start-year: 2017
+  end-month: Aug
+  end-year: 2017
+  description: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
+
+  - title: ACM-W Chapter President
+  volunteer: true
+  employer: Association for Computing Machinery for Women, University of Minnesota
+  city: Minneapolis, MN
+  start-month: May
+  start-year: 2017
+  end-month: May
+  end-year: 2018
+  description: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
