@@ -14,13 +14,13 @@ A contact page that includes various ways for employers to get in touch with you
 	<div class="social-links">
 	    {% if site.email %}
 	        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
-	            <i class="fas fa-envelope fa2x"></i>
+	            <i class="fas fa-envelope fa-2x"></i>
 	        </a>
 	    {% endif %}
 
 	    {% if site.linkedin %}
 	        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
-	            <i class="fab fa-linkedin fa2x"></i>
+	            <i class="fab fa-linkedin fa-2x"></i>
 	        </a>
 	    {% endif %}
 
