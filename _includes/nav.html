@@ -37,10 +37,12 @@
         {% endif %}
 
         {% if site.resume-page == true %}
-            {% if page.title != "Résumé" or page.title != "Resume" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/resume">Résumé</a>
-                </li>
+            {% if page.title != "Résumé" %}
+                {% if page.title != "Resume" %}
+                    <li class="item">
+                        <a class="link" href="{{ site.url }}/resume">Résumé</a>
+                    </li>
+                {% endif %}
             {% endif %}
         {% endif %}
 
