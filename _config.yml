@@ -17,7 +17,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://acschwartz.github.io/
+url: https://acschwartz.github.io
 
 permalink: /:title/
 
