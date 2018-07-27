@@ -20,7 +20,7 @@ A contact page that includes various ways for employers to get in touch with you
 
 	    {% if site.linkedin %}
 	        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
-	            <i class="fas fa-linkedin fa-2x"></i>
+	            <i class="fab fa-linkedin fa-2x"></i>
 	        </a>
 	    {% endif %}
 
