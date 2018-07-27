@@ -3,9 +3,4 @@ title: Contact
 layout: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A contact page that includes various ways for employers to get in touch with you. You can include any methods of communication (phone number, email, social media, etc.) that you’re comfortable with, <b>but I do require that you provide a link to your LinkedIn profile</b>.

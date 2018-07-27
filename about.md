@@ -3,22 +3,32 @@ title: About
 layout: page
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Briefly explains who you are, your work experience, and professional goals</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Work Experience</h2>
 
-<h2>Skills</h2>
+<h3>Front-End Web Developer (Student)</h3>
+SUA Marketing & Design, University of Minnesota
+description
 
+<h3>Software Development Intern</h3>
+Wells Fargo
+dfjhfdf
+
+<h3>ACM-W Chapter President</h3>
+Association for Computing Machinery for Women, University of Minnesota
+fhdfdhjd
+
+<h2>Professional Goals</h2>
+Doesn't necessarily have to be a list... may be better off as a blurb.
+<ul>
+	<li>Lorem Lorem</li>
+	<li>Ipsum Dolor</li>
+	<li>Dolor Lorem</li>
+</ul>
+
+<!--
+<h2>Skills</h2>	
 <ul class="skill-list">
 	<li>HTML - Jade - Haml - Erb</li>
 	<li>Responsive (Mobile First)</li>
@@ -35,11 +45,4 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>Scrum and Kanban</li>
 	<li>TDD e Continuous Integration</li>
 </ul>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+-->
