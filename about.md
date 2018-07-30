@@ -7,7 +7,31 @@ layout: page
 
 <h2>Work Experience</h2>
 
-<h3>Front-End Web Developer (Student)</h3>
+{% for job in site.data.jobs %}
+	<table>
+		<tr>
+			<td>
+				<strong>{{ job.title }}</strong>
+			</td>
+			<td style="text-alight: right;">
+			<!-- TODO: classes for above, not inline style -->
+				{% if job.start-year == job.end-year %}
+					{{ job.start-year }}
+				{% else %}
+					{{ job.start-year }} &ndash; {{ job.end-year }}
+				{% endif %}
+			</td>
+		</tr>
+		<tr>
+			{{ job.employer }}
+		</tr>
+		<tr>
+			{{ job.description }}
+		</tr>
+	</table>
+{% endfor %}
+
+<!-- <h3>Front-End Web Developer (Student)</h3>
 SUA Marketing & Design, University of Minnesota
 description
 
@@ -17,7 +41,7 @@ dfjhfdf
 
 <h3>ACM-W Chapter President</h3>
 Association for Computing Machinery for Women, University of Minnesota
-fhdfdhjd
+fhdfdhjd -->
 
 <h2>Professional Goals</h2>
 Doesn't necessarily have to be a list... may be better off as a blurb.
