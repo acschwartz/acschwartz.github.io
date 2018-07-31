@@ -64,3 +64,10 @@ Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 ---
 
 [MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
+
+
+---------
+# Lessons Learned:
+
+* use a virtualenv for your projects!
+* use CSS class selectors, not element type selectors. The template used the later, and oh boy is it annoying to make any changes to it.
