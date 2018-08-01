@@ -1,9 +1,18 @@
 // .job-title
 
 .job-date {
-	width: 25%;
-
 	@media (min-width: $ungrid-min-width) {
+ 		width: 25%;
     	text-align: right;
 	}
+}
+
+.job-employer {
+	line-height: 1;
+	padding-bottom: 1rem;
+}
+
+.job-description {
+    line-height: 1.5;
+    padding-bottom: 20px;
 }

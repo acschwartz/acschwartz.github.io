@@ -6,12 +6,13 @@ layout: page
 <p>Briefly explains who you are, your work experience, and professional goals</p>
 
 <h2>Work Experience</h2>
-<div class="table text-normal">
+<div class="jobs-table text-normal">
 	{% for job in site.data.jobs %}
 		<div class="row">
-		    <div class="col job-title strong">
-			    {{ job.title }}
+		    <div class="col job-title">
+			    <strong>{{ job.title }}</strong>
 		    </div>
+		    <div class="col job-date">
 				{% if job.start-year == job.end-year %}
 					{{ job.start-year }}
 				{% else %}
