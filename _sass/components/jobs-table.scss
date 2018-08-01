@@ -1,4 +1,5 @@
 // .job-title
+// TODO: could play w/ mobile line spacing for job title
 
 .job-date {
 	@media (min-width: $ungrid-min-width) {
@@ -8,6 +9,8 @@
 }
 
 .job-employer {
+	color: $gama;
+	// font-style: italic;
 	line-height: 1;
 	padding-bottom: 1rem;
 }
