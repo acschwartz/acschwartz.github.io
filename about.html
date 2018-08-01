@@ -6,46 +6,36 @@ layout: page
 <p>Briefly explains who you are, your work experience, and professional goals</p>
 
 <h2>Work Experience</h2>
-
-<table>
-	{% for job in site.data.jobs %}
-		<tr>
-			<td class="job-title">
-				<strong>{{ job.title }}</strong>
-			</td>
-			<td class="job-date" style="text-alight: right;">
+{% for job in site.data.jobs %}
+	<div class="row">
+	    <div class="col job-title">
+	    	<strong>{{ job.title }}</strong>
+	    </div>
+	    <div class="col job-date" style="display: inline-block">
+	    	<!-- <td class="job-date" style="text-align: right; white-space: nowrap;"> -->
 			<!-- TODO: classes for above, not inline style -->
-				{% if job.start-year == job.end-year %}
-					{{ job.start-year }}
-				{% else %}
-					{{ job.start-year }} &ndash; {{ job.end-year }}
-				{% endif %}
-			</td>
-		</tr>
-		<tr class="job-employer">
-			<td>
-				{{ job.employer }}
-			</td>
-		</tr>
-		<tr class="job-description">
-			<td>
-				{{ job.description }}
-			</td>
-		</tr>
-	{% endfor %}
-</table>
+			{% if job.start-year == job.end-year %}
+				{{ job.start-year }}
+			{% else %}
+				{{ job.start-year }} &ndash; {{ job.end-year }}
+			{% endif %}
+	    </div>
+	</div>
 
-<!-- <h3>Front-End Web Developer (Student)</h3>
-SUA Marketing & Design, University of Minnesota
-description
+	<div class="row">
+	    <div class="col job-employer">
+	    	{{ job.employer}}
+	    </div>
+	</div>
 
-<h3>Software Development Intern</h3>
-Wells Fargo
-dfjhfdf
+	<div class="row">
+	    <div class="col job-description">
+	    	{{ job.description }}
+	    </div>
+	</div>
+{% endfor %}
 
-<h3>ACM-W Chapter President</h3>
-Association for Computing Machinery for Women, University of Minnesota
-fhdfdhjd -->
+
 
 <h2>Professional Goals</h2>
 <p>
