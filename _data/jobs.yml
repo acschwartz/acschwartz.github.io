@@ -1,11 +1,14 @@
-- title: Front-End Web Developer (Student)
-  employer: UMM SUA Marketing & Design
+- title: Student Front-End Web Developer
+  employer: Student Unions & Activities, University of Minnesota
   city: Minneapolis, MN
   start-month: Jun
   start-year: 2018
   end-month: Aug
   end-year: 2018
   description: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
+  duties:
+      - Worked with blah blah blah
+      - Did blah blah blah
 
 - title: Software Development Intern
   employer: Wells Fargo Insurance
