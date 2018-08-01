@@ -38,16 +38,22 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     margin-left: 1.5rem;
 ">    
 	<a href="file.pdf" class="social-links link" data-title="Download PDF" target="_blank" style="
-	    font-weight: normal;
+    font-weight: normal;
+    height: unset;
+    width: unset;
 	">
 		<i class="fas fa-file-pdf fa-lg" style="
-		    margin-right: .3rem;
-		    /* font-size: 3rem; */
+    	margin-right: .3rem;
+    	/* font-size: 3rem; */
 		"></i>
 		View Résumé
 	</a>
 	<br>
-	<a href="http://indeed.com" class="social-links link" data-title="External Link" target="_blank">
+	<a href="http://indeed.com" class="social-links link" data-title="External Link" target="_blank" style="
+    font-weight: normal;
+    height: unset;
+    width: unset;
+	">
 		<i class="fas fa-link fa-md"></i>
 		Job Posting
 	</a>
