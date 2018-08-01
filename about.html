@@ -30,6 +30,14 @@ layout: page
 		<div class="row">
 		    <div class="col job-description">
 		    	{{ job.description }}
+
+		    	{% if job.duties %}
+		    		<ul>
+		    			{% for duty in job.duties %}
+		    				<li>{{ duty }}</li>
+		    			{% endfor %}
+		    		</ul>
+		    	{% endif %}
 		    </div>
 		</div>
 	{% endfor %}
