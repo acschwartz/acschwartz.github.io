@@ -1,5 +1,11 @@
-resumes:
-  - position: xxx
-    employer: UMM SUA Marketing & Design
-    idk: idk
-    description: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
+- position: Web Developer Intern
+  employer: Employer Name 1
+  job-posting-link: http://...
+  resume-path: etc.pdf
+  description: a brief (3-4 sentence) explanation of why you chose these postings and how your résumé is an appropriate fit for each posting.
+
+- position: C# Developer Intern
+  employer: Employer Name 2
+  job-posting-link: http://...
+  resume-path: assets/screen-shot.png
+  description: a brief (3-4 sentence) explanation of why you chose these postings and how your résumé is an appropriate fit for each posting.

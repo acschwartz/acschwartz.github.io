@@ -13,9 +13,10 @@ a brief (3-4 sentence) explanation of why you chose these postings and how your 
 </p>
 
 
+{% for resume in site.data.resumes %}
 <h4 style="
     margin-bottom: 0;
-"><div class="social-links" style="display: inline;padding-left: .33em;"> <a href="file.pdf" target="_blank" class="link" data-title="View PDF" style="
+"><div class="social-links" style="display: inline;padding-left: .33em;"> <a href="{{site.url}}/{{resume.resume-path}}" target="_blank" class="link" data-title="View PDF" style="
     width: unset;
     /* height: unset; */
     height: 33px;
@@ -24,11 +25,12 @@ a brief (3-4 sentence) explanation of why you chose these postings and how your 
     vertical-align: middle;
     font-size: 2.5rem;
 "></i><span class="icon-fa"> <!-- <= this is just straight up messy over here lol needed to get this done -->
-Version 1 - Web Developer Intern</span></a> </div></h4>
-<p style="margin-left: 2em;margin-top: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+Version {{ forloop.index }} - {{ resume.position }}</span></a> </div></h4>
+<p style="margin-left: 2em;margin-top: 0; font-style:italic">{{ resume.description }} </p>
+{% endfor %}
 
 
-<h2>
+<!-- <h2>
 	Web Developer Intern
 	<div class="social-links" style="
 	    display: inline;
@@ -79,5 +81,5 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+</p> -->
 
