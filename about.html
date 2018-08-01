@@ -9,8 +9,8 @@ layout: page
 <div class="jobs-table text-normal">
 	{% for job in site.data.jobs %}
 		<div class="row">
-		    <div class="col job-title">
-			    <strong>{{ job.title }}</strong>
+		    <div class="col job-title strong">
+			    {{ job.title }}
 		    </div>
 		    <div class="col job-date">
 				{% if job.start-year == job.end-year %}
