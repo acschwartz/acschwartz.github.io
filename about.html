@@ -6,33 +6,33 @@ layout: page
 <p>Briefly explains who you are, your work experience, and professional goals</p>
 
 <h2>Work Experience</h2>
-{% for job in site.data.jobs %}
-	<div class="row">
-	    <div class="col job-title">
-	    	<strong>{{ job.title }}</strong>
-	    </div>
-	    <div class="col job-date" style="width: 25%; text-align: right;">
-			<!-- TODO: classes for above, not inline style -->
-			{% if job.start-year == job.end-year %}
-				{{ job.start-year }}
-			{% else %}
-				{{ job.start-year }} &ndash; {{ job.end-year }}
-			{% endif %}
-	    </div>
-	</div>
+<div class="table text-normal">
+	{% for job in site.data.jobs %}
+		<div class="row">
+		    <div class="col job-title strong">
+			    {{ job.title }}
+		    </div>
+				{% if job.start-year == job.end-year %}
+					{{ job.start-year }}
+				{% else %}
+					{{ job.start-year }} &ndash; {{ job.end-year }}
+				{% endif %}
+		    </div>
+		</div>
 
-	<div class="row">
-	    <div class="col job-employer">
-	    	{{ job.employer}}
-	    </div>
-	</div>
+		<div class="row">
+		    <div class="col job-employer">
+		    	{{ job.employer}}
+		    </div>
+		</div>
 
-	<div class="row">
-	    <div class="col job-description">
-	    	{{ job.description }}
-	    </div>
-	</div>
-{% endfor %}
+		<div class="row">
+		    <div class="col job-description">
+		    	{{ job.description }}
+		    </div>
+		</div>
+	{% endfor %}
+</div>
 
 
 
