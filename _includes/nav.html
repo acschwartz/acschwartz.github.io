@@ -4,7 +4,7 @@
 
             {% if page.title != "Home" %}
                 <li class="item">
-                    <a class="link"><strong>Annie Schwartz</strong></a>
+                    <a class="link site-name">Annie Schwartz</a>
                 </li>
             {% endif %}
 
@@ -15,28 +15,32 @@
                 </li>
             {% endif %}
 
-            {% if site.blog == true %}
+            <!-- !! NOTE: !!
+                if you add a new page (uncomment out its code), update the old code for it to show is-active instead of disspear when on its own page-->
+
+            <!-- {% if site.blog == true %}
                 {% if page.title != "Blog" %}
                     <li class="item">
                         <a class="link" href="{{ site.url }}/blog">Blog</a>
                     </li>
                 {% endif %}
-            {% endif %}
+            {% endif %} -->
 
-            {% if site.projects == true %}
+            <!-- {% if site.projects == true %}
                 {% if page.title != "Projects" %}
                     <li class="item">
                         <a class="link" href="{{ site.url }}/projects">Projects</a>
                     </li>
                 {% endif %}
-            {% endif %}
+            {% endif %} -->
 
             {% if site.about == true %}
-                {% if page.title != "About" %}
-                    <li class="item">
-                        <a class="link" href="{{ site.url }}/about">About</a>
-                    </li>
-                {% endif %}
+                <li class="item">
+                    <a class="link {% if page.title == "About" %} is-active"
+                    {% else %}" href="{{ site.url }}/about"
+                    {% endif %}>
+                    About</a>
+                </li>
             {% endif %}
 
             {% if site.resume == true %}
@@ -46,21 +50,21 @@
             {% endif %}
 
             {% if site.resume-page == true %}
-                {% if page.title != "Résumé" %}
-                    {% if page.title != "Resume" %}
-                        <li class="item">
-                            <a class="link" href="{{ site.url }}/resume">Résumé</a>
-                        </li>
-                    {% endif %}
-                {% endif %}
+                <li class="item">
+                    <a class="link {% if page.title == "Résumé" or page.title=="Resume" %} is-active"
+                    {% else %}" href="{{ site.url }}/resume"
+                    {% endif %}>
+                    Résumé</a>
+                </li>
             {% endif %}
 
             {% if site.contact-page == true %}
-                {% if page.title != "Contact" %}
-                    <li class="item">
-                        <a class="link" href="{{ site.url }}/contact">Contact</a>
-                    </li>
-                {% endif %}
+                <li class="item">
+                    <a class="link {% if page.title == "Contact" %} is-active"
+                    {% else %}" href="{{ site.url }}/contact"
+                    {% endif %}>
+                    Contact</a>
+                </li>
             {% endif %}
 
         </ul>
