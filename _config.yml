@@ -1,7 +1,7 @@
 # main text of home
 name: Annie Schwartz
 greeting: Hi, I'm Annie.
-bio: >
+bio: |
   Computer science student graduating December 2018
   Natural problem-solver and proven leader
 
