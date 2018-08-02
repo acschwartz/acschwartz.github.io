@@ -1,9 +1,7 @@
 # main text of home
 name: Annie Schwartz
 greeting: Hi, I'm Annie.
-bio: |
-  Computer science student graduating December 2018
-  Natural problem-solver and proven leader
+bio: BS Computer Science, University of Minnesota, Dec 2018
 
 # twitter summary info
 description: ""
