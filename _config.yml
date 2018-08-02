@@ -1,12 +1,12 @@
 # main text of home
 name: Annie Schwartz
 greeting: Hi, I'm Annie.
-bio: A Man who travels the world eating noodles
-
-# twitter summary info
-description: >
+bio: >
   Computer science student graduating December 2018
   Natural problem-solver and proven leader
+
+# twitter summary info
+description: ""
 
 # if it's an external image, update below for true
 # better with square images
