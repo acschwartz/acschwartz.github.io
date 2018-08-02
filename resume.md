@@ -6,10 +6,7 @@ layout: page
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 <p>
-A page (or pages) that contains:
-your two tailored versions of your résumé, 
-links to the job postings you’re focusing on, 
-a brief (3-4 sentence) explanation of why you chose these postings and how your résumé is an appropriate fit for each posting.
+I am currently searching for a fully remote internship. Below are my résumés for two internship postings that offer remote work. Since I have previously worked as part of a remote team, I included this in both résumés.
 </p>
 
 
