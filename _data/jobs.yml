@@ -20,8 +20,9 @@
   description: Full-stack web development with ASP.NET, VB.NET, SQL 
   duties:
       - Added functionality to existing data-driven web applications
-      - Built ASP.NET user interfaces that, via a VB.NET business logic layer, allowed users to view and interact with records in a SQL
-database 
+      - >
+      Built ASP.NET user interfaces that, via a VB.NET business logic layer, allowed users to view and interact with records in a SQL
+database
       - Wrote SQL stored procedures to handle complex insertion and update logic
 
 - title: ACM-W Chapter President
