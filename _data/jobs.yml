@@ -5,10 +5,10 @@
   start-year: 2018
   end-month: Aug
   end-year: 2018
-  description: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
+  description: Python web development with Django, Wagtail, Flask, SASS, Jinja2, HTML 
   duties:
-      - Worked with blah blah blah
-      - Did blah blah blah
+      - Ported an exiting Flask/Django site to Wagtail, preserving the UI while making improvements to the project’s structure and code 
+      - Implemented changes to existing UIs to match designers’ vision 
 
 - title: Software Development Intern
   employer: Wells Fargo Insurance
@@ -17,7 +17,12 @@
   start-year: 2017
   end-month: Aug
   end-year: 2017
-  description: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
+  description: Full-stack web development with ASP.NET, VB.NET, SQL 
+  duties:
+      - Added functionality to existing data-driven web applications
+      - Built ASP.NET user interfaces that, via a VB.NET business logic layer, allowed users to view and interact with records in a SQL
+database 
+      - Wrote SQL stored procedures to handle complex insertion and update logic
 
 - title: ACM-W Chapter President
   volunteer: true
@@ -27,4 +32,8 @@
   start-year: 2017
   end-month: May
   end-year: 2018
-  description: https://stackoverflow.com/questions/3790454/in-yaml-how-do-i-break-a-string-over-multiple-lines
+  description: false
+  duties:
+      - Created and successfully executed an aggressive, multi-faceted plan to grow chapter
+      - Assembled and managed team of 15 officers, overseeing all chapter activities
+      - Increased membership to 10x the previous year's 
