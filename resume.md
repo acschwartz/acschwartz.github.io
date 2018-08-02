@@ -23,7 +23,7 @@ I am currently searching for a fully remote internship. Below are my résumés f
     font-size: 2.5rem;
 "></i><span class="icon-fa"> <!-- <= this is just straight up messy over here lol needed to get this done -->
 Version {{ forloop.index }} - {{ resume.position }} at {{ resume.employer }}</span></a> </div></h4>
-<p style="margin-left: 2em;margin-top: 0; font-style:italic">{{ resume.description }} </p>
+<p style="margin-left: 2em;margin-top: 0;">{{ resume.description }} </p>
 {% endfor %}
 
 
