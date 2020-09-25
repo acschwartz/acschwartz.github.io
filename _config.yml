@@ -1,7 +1,7 @@
 # main text of home
 name: Annie Schwartz
 greeting: Hi, I'm Annie.
-bio: BS Computer Science, University of Minnesota December 2018
+bio: BS Computer Science, University of Minnesota December 2020
 
 # twitter summary info
 description: ""
@@ -9,7 +9,7 @@ description: ""
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/memoji/spacebuns-laptop.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
