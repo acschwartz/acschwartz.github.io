@@ -6,77 +6,65 @@ layout: page
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 <p>
-I am currently searching for a fully remote internship. Below are my résumés for two internship postings that offer remote work. Since I have previously worked as part of a remote team, I included this in both résumés.
+Hey Annie, you need to add "Education", "Skills", etc! ;)
 </p>
 
 
-{% for resume in site.data.resumes %}
-<h4 style="
-    margin-bottom: 0;
-"><div class="social-links" style="display: inline;padding-left: .33em;"> <a href="{{site.url}}/{{resume.resume-path}}" target="_blank" class="link" data-title="View PDF" style="
-    width: unset;
-    /* height: unset; */
-    height: 33px;
-"> <i class="icon-fa fas fa-file-pdf fa-2x red" style="
-    padding-right: .15em;
-    vertical-align: middle;
-    font-size: 2.5rem;
-"></i><span class="icon-fa"> <!-- <= this is just straight up messy over here lol needed to get this done -->
-Version {{ forloop.index }} - {{ resume.position }} at {{ resume.employer }}</span></a> </div></h4>
-<p style="margin-left: 2em;margin-top: 0;">{{ resume.description }} </p>
-{% endfor %}
+<h2>Work Experience</h2>
+<div class="jobs-table text-normal">
+	{% for job in site.data.jobs %}
+		<div class="row">
+		    <div class="col job-title strong">
+			    {{ job.title }}
+		    </div>
+		    <div class="col job-date">
+				{% if job.start-year == job.end-year %}
+					{{ job.start-year }}
+				{% else %}
+					{{ job.start-year }} &ndash; {{ job.end-year }}
+				{% endif %}
+		    </div>
+		</div>
 
+		<div class="row">
+		    <div class="col job-employer">
+		    	{{ job.employer}}
+		    </div>
+		</div>
 
-<!-- <h2>
-	Web Developer Intern
-	<div class="social-links" style="
-	    display: inline;
-	    padding-left: .33em;
-	">
-		<a href="file.pdf" class="social-links link" data-title="View PDF">
-			<i class="icon-fa fas fa-file-download fa-lg"></i>
-		</a>
-	</div>
-</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+		<div class="row">
+		    <div class="col job-description">
+		    	{{ job.description }}
 
-<h2>C# Developer Intern</h2>
-<div class="social-links text-normal" style="
-    margin: 0;
-    margin-left: 1.5rem;
-">    
-	<a href="file.pdf" class="social-links link" data-title="Download PDF" target="_blank" style="
-    font-weight: normal;
-    height: unset;
-    width: unset;
-	">
-		<i class="icon-fa fas fa-file-pdf fa-lg" style="
-    	margin-right: .3rem;
-    	/* font-size: 3rem; */
-		"></i>
-		View Résumé
-	</a>
-	<br>
-	<a href="http://indeed.com" class="social-links link" data-title="External Link" target="_blank" style="
-    font-weight: normal;
-    height: unset;
-    width: unset;
-	">
-		<i class="icon-fa fas fa-link fa-md"></i>
-		Job Posting
-	</a>
+		    	{% if job.duties %}
+		    		<ul>
+		    			{% for duty in job.duties %}
+		    				<li>{{ duty }}</li>
+		    			{% endfor %}
+		    		</ul>
+		    	{% endif %}
+		    </div>
+		</div>
+	{% endfor %}
 </div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p> -->
+
+
+<h2>Skills</h2>	
+<ul class="skill-list">
+	<li>HTML - Jade - Haml - Erb</li>
+	<li>Responsive (Mobile First)</li>
+	<li>CSS (Stylus, Sass, Less)</li>
+	<li>Css Frameworks (Bootstrap, Foundation)</li>
+	<li>Javascript (Design Patterns, Testes)</li>
+	<li>NodeJS</li>
+	<li>AngularJS - ReactJS</li>
+	<li>Grunt - Gulp - Yeoman</li>
+	<li>Git</li>
+	<li>PHP</li>
+	<li>Python</li>
+	<li>MySQL - MongoDB</li>
+	<li>Scrum and Kanban</li>
+	<li>TDD e Continuous Integration</li>
+</ul>
+
 
