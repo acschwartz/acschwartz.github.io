@@ -9,9 +9,9 @@
    or page.title == "Contact"
 %}{% assign showMinHeader = true %}{% endif %}
 
-{% if page.title == "About" %}
+{% if page.title == "About Me" %}
     <header class="header-home">
-        <img class="profilepic" src="{{ site.url }}/{{ site.picture }}">
+        <img class="profilepic" src="{{ site.url }}/{{ site.profilepic }}">
     </header>
     <header class="header-home {% if site.animation %}animated{% endif %}">
         <h1 class="title">{{ page.title }}</h1>
