@@ -1,7 +1,8 @@
 # main text of home
 name: Annie Schwartz
 greeting: Hi, I'm Annie.
-bio: BS Computer Science, University of Minnesota 2021
+bio_line1: BS Computer Science
+bio_line2: University of Minnesota '21
 
 # twitter summary info
 description: ""
