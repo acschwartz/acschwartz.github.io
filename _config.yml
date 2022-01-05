@@ -16,12 +16,13 @@ profilepic: assets/images/headshot.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 # This option has the "Resume" link point to a file
-# resume: true
-# resume-external: true
-# resume-url: https://google.com/?q=my+resume
+resume: true
+resume-external: false
+#resume-url: https://google.com/?q=my+resume
+resume-url: assets/resume.pdf
 
 # If you want the "Resume" link to point to a page
-resume-page: true
+# resume-page: false
 
 # If you want to have a dedicated "Contact" page
 contact-page: true
@@ -122,3 +123,4 @@ plugins:
 
 jekyll-mentions:
     base_url: https://github.com
+    
