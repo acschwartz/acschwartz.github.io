@@ -47,6 +47,7 @@ disqus:
 social-links: true
 
 # if you don't have any of social below, comment the line
+email: schwartz.annie.c@gmail.com
 # facebook: myfacebook
 # twitter: mytwitter
 # google: mygoogle
@@ -54,7 +55,6 @@ social-links: true
 # pinterest: mypinterest
 linkedin: acschwrtz
 # youtube: myyoutube
-spotify: 124164423
 github: acschwartz
 # gitlab: mygitlab
 # lastfm: mylastfm
@@ -64,7 +64,7 @@ github: acschwartz
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: schwartz.annie.c@gmail.com
+spotify: 124164423
 
 authors:
     johndoe:
