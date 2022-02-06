@@ -2,7 +2,7 @@
 name: Annie Schwartz
 greeting: Hi, I'm Annie.
 bio-line1: BS Computer Science
-bio-line2: University of Minnesota '21
+bio-line2: University of Minnesota '22
 
 # twitter summary info
 description: ""
@@ -47,14 +47,14 @@ disqus:
 social-links: true
 
 # if you don't have any of social below, comment the line
+email: schwartz.annie.c@gmail.com
 # facebook: myfacebook
 # twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: annieschwartzumn
+linkedin: acschwrtz
 # youtube: myyoutube
-# spotify: myspotify
 github: acschwartz
 # gitlab: mygitlab
 # lastfm: mylastfm
@@ -64,7 +64,7 @@ github: acschwartz
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: schw1781@umn.edu
+spotify: 124164423
 
 authors:
     johndoe:
